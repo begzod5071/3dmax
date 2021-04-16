@@ -1,0 +1,41 @@
+.site-footer__box{
+  display: flex;
+  align-items: center;
+}
+.site-footer__text{
+  margin: 0;
+  margin-right: 40px;
+}
+.site-footer__img{
+margin-right: 15px;
+}
+.site-footer__tell{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 170%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-right: 20px;
+}
+.site-footer__telegram{
+  text-decoration: none;
+display: flex;
+align-items: center;
+padding: 7px 15px;
+border-radius: 2px;
+border: 0.5px solid rgba(0, 0, 0, 0.3);
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 170%;
+letter-spacing: 0.02em;
+color: #000000;
+&--left{
+  margin-right: 10px;
+}
+}
+.site-footer__telegram-img{
+  margin-right: 10px;
+}

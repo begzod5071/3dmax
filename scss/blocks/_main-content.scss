@@ -1,0 +1,37 @@
+.main-content{
+  margin-top: 224px;
+}
+.main-content__heading{
+margin: 0;
+font-weight: 300;
+font-size: 45px;
+line-height: 67px;
+color: #000000;
+margin-bottom: 15px;
+}
+.main-content__span{
+font-weight: bold;
+}
+.main-content__text{
+  margin: 0;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 170%;
+  color: rgba(0, 0, 0, 0.6);
+}
+.main-content__link{
+  display: inline-block;
+  text-decoration: none;
+  background: #000000;
+  border-radius: 5px;
+padding: 15px 30px;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 170%;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-bottom: 220px;
+}
