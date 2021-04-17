@@ -1,25 +1,26 @@
 .main-content{
-  margin-top: 224px;
+  margin-top: 124px;
 }
 .main-content__heading{
 margin: 0;
 font-weight: 300;
-font-size: 45px;
-line-height: 67px;
+font-size: 40px;
+line-height: 60px;
 color: #000000;
-margin-bottom: 15px;
+margin-bottom: 30px;
 }
 .main-content__span{
 font-weight: bold;
 }
 .main-content__text{
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 170%;
   color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 70px;
 }
 .main-content__link{
   display: inline-block;
@@ -29,9 +30,14 @@ font-weight: bold;
 padding: 15px 30px;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 14px;
 line-height: 170%;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-margin-bottom: 220px;
+
+}
+@include breakpoint-down(1150){
+  .main-content__span{
+    display: block;
+  }
 }
