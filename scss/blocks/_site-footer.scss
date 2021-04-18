@@ -64,3 +64,25 @@ color: #000000;
 .site-footer__item-text{
 margin: 0;
 }
+
+@include breakpoint-down(680){
+  .site-footer__box{
+   flex-direction: column;
+  }
+  .site-footer__text{
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .site-footer__img{
+margin-right: 0px;
+margin-bottom: 10px;
+  }
+  .site-footer__tell{
+margin-right: 0px;
+margin-bottom: 10px;
+  }
+  .site-footer__telegram--left{
+margin-right: 0px;
+margin-bottom: 10px;
+  }
+}

@@ -41,3 +41,13 @@ color: #FFFFFF;
     display: block;
   }
 }
+@include breakpoint-down(400){
+  .main-content__link{
+    transform: translateX(55px);
+  }
+}
+@include breakpoint-down(370){
+ .main-content__text{
+   margin-bottom: 10px;
+ }
+}

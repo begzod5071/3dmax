@@ -18,3 +18,29 @@ margin-right: 50px;
   letter-spacing: 0.03em;
   color: #B7B7B7;
 }
+
+.site-header--open .sitenav{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.site-header--open .sitenav__list{
+flex-direction: column;
+padding-top: 50px;
+}
+
+.site-header--open .sitenav__list-item:not(:last-child){
+  margin-right: 0px;
+  }
+  .site-header--open .sitenav__list-item{
+padding: 20px;
+  }
+@include breakpoint-down(670){
+  .sitenav{
+    display: none;
+  }
+}
